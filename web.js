@@ -4,8 +4,8 @@ var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
 //var fs = require('fs');
-var buffer = new buffer();
-  response.send("fff");
+//var buffer = new buffer();
+  response.send('fff');
 });
 
 var port = process.env.PORT || 5000;
